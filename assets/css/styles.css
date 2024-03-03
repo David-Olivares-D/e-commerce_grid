@@ -38,11 +38,11 @@ menu {
     grid-area: menu;
     background-color: rgb(238, 240, 234)   ;
     font-size: 1.5em;
-    padding-top: 20px;
+    padding-top: 15%;
 }
 
-menu h3 {
-    padding-left: 5%;
+menu h4 {
+    padding-bottom: 10%;
 }
 
 menu ul{
@@ -65,24 +65,24 @@ main {
 
 .cards {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1em;
-    padding-left: 5px;
+    grid-template-columns: 32% 32% 32%;
+    gap: 1.5em;
     height: 100%;
+    width: 100%;
 }
 
 .contenido_cards img {
-    height: 60%;
+    height: 65%;
 }
 
 .contenido_cards h3 {
     text-align: center;
     font-size: 5em;
-    height: 20%;
+    height: 10%;
 }
 
 .contenido_cards p {
-    height: 5%;
+    height: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
