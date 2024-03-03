@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.box {
+    display: grid;
+    grid-template-areas: "navbar navbar navbar" "menu main main" " footer footer footer";
+    height: 100%;
+}
+
+/* Navbar*/
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: navbar;
+    height: 100%;
+    text-align: center;
+    font-size: 3em;
+    background-color: rgb(54, 88, 199);
+    color: white;
+}
+
+/* Menu */
+menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    grid-area: menu;
+    background-color: rgb(238, 240, 234)   ;
+    font-size: 1.5em;
+    padding-top: 20px;
+}
+
+menu h3 {
+    padding-left: 5%;
+}
+
+menu ul{
+    padding: 8%;
+}
+
+menu li {
+    list-style: none;
+}
+
+menu li span {
+    color: gray;
+}
+
+/* Main */
+main {
+    grid-area: main;
+    height: 100%;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    padding-left: 5px;
+    height: 100%;
+}
+
+.contenido_cards img {
+    height: 60%;
+}
+
+.contenido_cards h3 {
+    text-align: center;
+    font-size: 5em;
+    height: 20%;
+}
+
+.contenido_cards p {
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+}
+
+.contenido_cards a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    text-align: center;
+    font-size: 2.5em;
+    background-color: rgb(54, 88, 199);
+    color: white;
+    text-decoration: none;
+}
+
+/* Card 1 */
+.card1 {
+    display: flex;
+    flex-direction: column;
+    border: solid 2px rgb(239, 233, 233);
+}
+
+/* Card 2 */
+.card2 {
+    display: flex;
+    flex-direction: column;
+    border: solid 2px rgb(239, 233, 233);
+}
+
+/* Card 3 */
+.card3 {
+    display: flex;
+    flex-direction: column;
+    border: solid 2px rgb(239, 233, 233);
+}
+
+/* Card 4 */
+.card4 {
+    display: flex;
+    flex-direction: column;
+    border: solid 2px rgb(239, 233, 233);
+}
+
+/*Footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-area: footer;
+    background-color: white;
+    height: 3em;
+    font-size: 35px;
+}
